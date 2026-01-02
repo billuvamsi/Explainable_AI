@@ -12,5 +12,6 @@ model = xrv.models.DenseNet(weights="densenet121-res224-all")
 # XAI -- RISE
 
 Context & Motivation
+
 RISE seeks to solve the "black box" problem of Convolutional Neural Networks (CNNs) by identifying exactly which parts of an image contribute most to a specific prediction. It generates an explanation for a single specific input instance rather than describing the general logic of the entire network, making it a local explanation method.
 
